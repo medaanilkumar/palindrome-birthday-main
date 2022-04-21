@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+    color:white;
+    
+  }
+  .container{
+    text-align: center;
+    margin:2rem 0rem;
+  }
+  #output{
+    margin:2rem 0rem;
+  }
+  input{
+    padding:0.2rem 0.8rem;
+    width:20%;
+  }
+  .btn{
+    padding:.5rem 2rem;
+    display:block;
+   margin:1rem  auto;
+   border-radius: 2rem;
+    cursor:pointer;
+    font-weight: bold;
+    border: 1px solid pink;
+    /* background-color: */
+    
+  }
+  .btn:hover{
+    background-color: pink;
+  }
+  /* footer */
+  .footer-div{
+   text-align: center;
+    position: fixed;
+    bottom: 0%;
+    left:0;
+    width: 100%;
+    color:white;
+}
+.footer-div a{
+    font-size: x-large;
+    padding: .5rem 1rem;
+    color:white;
+}
+.footer-div div{
+  
+  margin: 1rem 0rem;
+}
+@media only screen and (max-width: 600px){
+  input{
+    width:50%;
+  }
+}
